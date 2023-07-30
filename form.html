@@ -1,0 +1,117 @@
+<html>
+<head>
+<title>Registration Form</title>
+</head>
+<body>
+<h1>Registration Form</h1>
+<form action="" method="get" target="_self">
+	<fieldset>
+		<legend>
+		Personal Detail
+		</legend>
+		<label for="txtfname">FirstName : </label>
+		<input type="text" maxlength="15" required id="txtfname">
+		<br>
+		<br>
+		<label for="txtlname">LastName : </label>
+		<input type="text" id="txtlname" required>
+		<br>
+		<br>
+		<label for="gender">Gender : </label>
+		<input type="radio" name="gender" value="male" checked> Male
+		<input type="radio" name="gender" value="female" selected> FeMale
+		<input type="radio" name="gender" value="can't say" selected> Can't say
+		<br>
+		<br>
+		<label for="gende">Hobbies : </label>
+		<input type="checkbox" name="gende" value="Swimming" checked> Swimming
+		<input type="checkbox" name="gende" value="Surfing" selected> Surfing
+		<input type="checkbox" name="gende" value="Reading" selected> Reading
+		<br>
+		<br>
+		<label for="txtlnam">Age : </label>
+		<input type="number" id="txtlnam" min="18" max="100">
+		<br>
+		<br>
+		<label for="txtlna">BirthDate : </label>
+		<input type="date" id="txtlna" min="1989-01-01" max="2022-01-01">
+		<br>
+		<br>
+		<label for="txtln">BirthWeek : </label>
+		<input type="week" id="txtln" >
+		<br>
+		<br>
+		<label for="txtl">BirthMonth : </label>
+		<input type="month" id="txtl" >
+		<br>
+		<br>
+		</fieldset>
+		
+		<fieldset>
+		<legend>
+		Favourites
+		</legend>
+		<label for="txtfnamez">Fav color : </label>
+		<input type="color"  id="txtfnamez">
+		<br>
+		<br>
+		<label for="txtlnamec">Mobile : </label>
+		<input type="number" id="txtlnamec"  maxlength="10">
+		<br>
+		<br>
+		<label for="txtlnamr">Email: </label>
+		<input type="email" id="txtlnamr" >
+		<br>
+		<br>
+		<label for="txtlnax">Password : </label>
+		<input type="password" id="txtlnax" >
+		<br>
+		<br>
+		<label for="txtlnl">I Can Afford : </label>
+		<input type="range" id="txtlnl" min="1000" max="5000" >
+		<br>
+		<br>
+		<label for="txtln">My Selfie : </label>
+		<input type="file" id="txtln" >
+		<br>
+		<br>
+		<label for="rty">Address  : </label>
+		<textarea rows="10" column="20" id="rty"></textarea>
+		<br>
+		<br>
+		
+		<label for="por">Country : </label>
+		<select name="country" id="por">
+			<option value="">-----select----</option>
+				<optgroup label="--Asian--">
+					<option value="india">india</option>
+					<option value="thiland">thiland</option>
+					<option value="china">china</option>
+				</optgroup>
+				<optgroup label="--NonAsian--">
+					<option value="london">london</option>
+					<option value="france">france</option>
+					<option value="paris">paris</option>
+				</optgroup>
+		</select>
+		<br>
+		<br>
+		<label for="pore">Country : </label>
+		<input type="text" list="country">
+		<datalist id="country">
+			<option value="india">india</option>
+			<option value="thiland">thiland</option>
+			<option value="china">china</option>
+			<option value="london">london</option>
+			<option value="france">france</option>
+			<option value="paris">paris</option>
+		</datalist>                                                                                                                                                      
+		</fieldset>
+		
+		<input type="Submit" >
+		<input type="reset" >
+		
+		
+</form>
+</body>
+</html>
